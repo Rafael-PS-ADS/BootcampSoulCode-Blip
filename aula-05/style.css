@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.box {
+    color: white;
+    background-color: darkslategray;
+    
+    width: 100vw;
+    height: 200px;
+    border: 5px solid gray;
+    padding: 10px 20px 30px 40px;
+    margin: 0px auto;
+
+    max-width: 1400px;
+    min-width: 320px;
+
+    box-shadow: 0px 10px 10px 0px #0000004b;
+}
+
+.img {
+    width: 100%;
+    min-height: 100vh;
+    background-color: burlywood;
+    background-image: url("./image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.linear-gradient {
+    width: 400px;
+    height: 400px;
+    background-color: #1b5d35;
+    background-image: linear-gradient(45deg, #1b5d35, #8ebf3e);
+
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    z-index: 3;
+}
+
+.radial-gradient {
+    width: 400px;
+    height: 400px;
+    background: #154878;
+    background-image: radial-gradient(circle at top right, #154878, #a41ca4);
+    position: relative;
+
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 80, 80);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+h1 {
+    width: 100vw;
+    padding: 20px 30px;
+    background-color: yellowgreen;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+.table {
+    width: 100%;
+    overflow: auto;
+}
+
+.table table {
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.table td,
+.table th {
+    padding: 10px 20px;
+    border: 2px solid gray;
+    margin: 0;
+}

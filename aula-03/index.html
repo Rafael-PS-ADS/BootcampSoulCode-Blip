@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+
+    <div style="padding: 30px;">
+        <header>
+            <h1>Produto X</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Mais Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#">Entre em Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section aria-labelledby="sec-precos">
+                <h2 id="sec-precos">Preços</h2>
+
+                <h3>Modelo A</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum.
+                </p>
+
+                <h3>Modelo B</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, sunt!
+                </p>
+
+                <h3>Modelo C</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, nulla.
+                </p>
+            </section>
+
+            <section aria-labelledby="sec-produtos">
+                <h2 id="sec-produtos">Mais Produtos</h2>
+
+                <article>
+                    <h3>Produto Y</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <a href="#">Saiba mais</a>
+                </article>
+
+                <article>
+                    <h3>Produto Z</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <a href="#">Saiba mais</a>
+                </article>
+            </section>
+
+            <section aria-labelledby="sec-depoimentos">
+                <h2 id="sec-depoimentos">Depoimentos</h2>
+                <article aria-label="Depoimento de Fulano">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium a quam perspiciatis laboriosam beatae veritatis, voluptate nemo totam dolorum eos. <em>"Fulano"</em>
+                    </p>
+                </article>
+
+                <article aria-label="Depoimento de Beltrano">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatum blanditiis provident est quasi, modi reiciendis? Facere harum numquam natus itaque placeat earum sit tenetur quod ipsum minima, praesentium suscipit! <em>"Beltrano"</em>
+                    </p>
+                </article>
+
+                <article aria-label="Depoimento de Sicrano">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae qui nobis minima unde ducimus labore nulla magni obcaecati velit. <em>"Sicrano"</em>
+                    </p>
+                </article>
+            </section>
+
+            <section aria-labelledby="sec-contato">
+                <h2 id="sec-contato">Entre em Contato</h2>
+                <form action="/mensagem" method="post">
+                    <p>Nome</p>
+                    <input type="text">
+
+                    <p>Email</p>
+                    <input type="email">
+
+                    <p>Telefone</p>
+                    <input type="tel">
+
+                    <p>Mensagem</p>
+                    <textarea></textarea>
+
+                    <button>Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                &copy; Produtos Ficticios. Todos os direitos reservados.
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

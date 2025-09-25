@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+
+    <div style="min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+
+        <article style="width: 100%; max-width: 40rem;">
+            <h1 style="text-align: center;">Cadastre-se</h1>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required pattern="[a-zA-Z ]+" placeholder="Digite seu nome completo">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="exemplo@email.com">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" value="123456" required minlength="6" maxlength="20">
+
+                <label for="data-nascimento">Data de Nascimento</label>
+                <input type="date" name="data-nascimento" id="data-nascimento" min="2010-01-01" max="2030-01-01">
+
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="peso" min="0" max="300">
+
+                <label>Estado Civil</label>
+                <label>
+                    Solteiro(a):
+                    <input name="estado-civil" type="radio" checked>
+                </label>
+                <label>
+                    Casado (a):
+                    <input name="estado-civil" type="radio">
+                </label>
+
+                <label for="educacao">Educação</label>
+                <select name="educacao" id="educacao">
+                    <option value="" selected disabled>Selecione uma opção</option>
+                    <option value="1">Ensino Fundamental</option>
+                    <option value="2">Ensino Médio</option>
+                    <option value="3">Ensino Superior</option>
+                </select>
+
+                <label>
+                    <input type="checkbox" name="termos" required>
+                    Aceito os termos de uso e política de privacidade.
+                </label>
+
+                <button>Enviar</button>
+                <button type="reset" disabled>Limpar</button>
+                <button type="button">Clique</button>
+
+            </form>
+        </article>
+
+    </div>
+    
+</body>
+</html>
