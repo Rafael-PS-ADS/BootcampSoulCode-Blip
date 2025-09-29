@@ -1,0 +1,15 @@
+{
+  "name": "aula-17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Rafael Pessoa",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
