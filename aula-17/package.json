@@ -7,9 +7,11 @@
     "dev": "node --watch src/index.js"
   },
   "keywords": [],
-  "author": "Rafael Pessoa",
+  "author": "Gabriel Braga",
   "type": "module",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.18.3"
   }
 }
