@@ -10,8 +10,11 @@
   "author": "Gabriel Braga",
   "type": "module",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.3"
   }
 }
