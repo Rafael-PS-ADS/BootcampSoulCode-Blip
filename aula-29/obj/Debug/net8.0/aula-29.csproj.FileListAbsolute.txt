@@ -1,0 +1,15 @@
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\bin\Debug\net8.0\aula-29.exe
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\bin\Debug\net8.0\aula-29.deps.json
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\bin\Debug\net8.0\aula-29.runtimeconfig.json
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\bin\Debug\net8.0\aula-29.dll
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\bin\Debug\net8.0\aula-29.pdb
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.sourcelink.json
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.dll
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\refint\aula-29.dll
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.pdb
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\aula-29.genruntimeconfig.cache
+C:\Users\Gabriel\Desktop\aulas-blip\aula-29\obj\Debug\net8.0\ref\aula-29.dll
